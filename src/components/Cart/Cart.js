@@ -1,8 +1,8 @@
-import Card from '../UI/Card';
-import classes from './Cart.module.css';
-import CartItem from './CartItem';
+import Card from '../UI/Card'
+import classes from './Cart.module.css'
+import CartItem from './CartItem'
 
-const Cart = (props) => {
+const Cart = props => {
   return (
     <Card className={classes.cart}>
       <h2>Your Shopping Cart</h2>
@@ -12,7 +12,7 @@ const Cart = (props) => {
         />
       </ul>
     </Card>
-  );
-};
+  )
+}
 
-export default Cart;
+export default Cart
